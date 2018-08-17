@@ -1,0 +1,46 @@
+@charset "UTF-8";
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: .5s;
+}
+
+.sidenav a {
+  font-size: 1.5rem;
+  color: #818181;
+  display: block;
+  transition: .3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn, .openbtn{
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+  font-size: 3rem;
+}
+
+.openbtn{
+  font-size: 2.5rem;
+  cursor: pointer;
+}
+.sidenav ul{
+  margin: 2rem;
+  position: absolute;
+  top: 2rem;
+}
+.sidenav li {
+  margin: 2rem;
+}
+article{
+  margin-top: 5rem ;
+}
